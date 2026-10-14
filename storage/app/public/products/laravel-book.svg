@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title description">
+  <title id="title">Buku Laravel</title>
+  <desc id="description">Ilustrasi sampul buku Laravel untuk belajar pengembangan aplikasi web.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c53030"/>
+      <stop offset="1" stop-color="#8f2026"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#0f172a" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <rect width="640" height="640" fill="url(#background)"/>
+  <g filter="url(#shadow)" transform="rotate(-4 320 320)">
+    <rect x="138" y="91" width="384" height="464" rx="16" fill="#f8fafc"/>
+    <rect x="122" y="80" width="384" height="464" rx="16" fill="url(#cover)"/>
+    <path d="M150 80h22v464h-22a28 28 0 0 1-28-28V108a28 28 0 0 1 28-28Z" fill="#741b22" opacity=".72"/>
+    <path d="M174 80v464" stroke="#e99a8e" stroke-opacity=".6" stroke-width="3"/>
+    <text x="205" y="154" fill="#ffe7df" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">PANDUAN WEB DEVELOPMENT</text>
+    <text x="205" y="246" fill="#fff" font-family="Arial, sans-serif" font-size="66" font-weight="700">Laravel</text>
+    <path d="M207 278h225" stroke="#f7b6a5" stroke-width="4" stroke-linecap="round"/>
+    <text x="207" y="324" fill="#fff1ed" font-family="Arial, sans-serif" font-size="23">Belajar membuat</text>
+    <text x="207" y="358" fill="#fff1ed" font-family="Arial, sans-serif" font-size="23">aplikasi web modern</text>
+    <g fill="none" stroke="#ffd5c9" stroke-linecap="round" stroke-width="7" opacity=".85">
+      <path d="M207 409h42m20 0h62m20 0h35"/>
+      <path d="M230 436h71m20 0h43"/>
+      <path d="M207 463h31m20 0h85m20 0h45"/>
+    </g>
+    <circle cx="445" cy="492" r="18" fill="#f7b6a5" opacity=".9"/>
+    <path d="m438 492 5 5 10-11" fill="none" stroke="#8f2026" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+</svg>

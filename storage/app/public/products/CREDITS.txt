@@ -1,0 +1,7 @@
+Product image sources
+
+- laptop.jpg: Unsplash image, https://images.unsplash.com/photo-1496181133206-80ce9b88a853
+- coffee.jpg: Unsplash image, https://images.unsplash.com/photo-1509042239860-f550ce710b93
+- laravel-book.svg: Original illustration created for this application.
+
+Unsplash License: https://unsplash.com/license
